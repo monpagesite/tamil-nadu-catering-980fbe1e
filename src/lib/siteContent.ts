@@ -172,74 +172,72 @@ export const siteContent = {
   
   contact: {
     overline: "Get in Touch",
-    headline: "Ready to Plan Your Event?",
-    subtext: "Share your event details and we'll send you a custom quote within 24 hours. Or call us now for immediate assistance.",
-    form: {
-      namePlaceholder: "Your Name",
-      emailPlaceholder: "Email Address",
-      phonePlaceholder: "Phone Number",
-      eventTypePlaceholder: "Event Type (e.g., Wedding, Corporate)",
-      guestsPlaceholder: "Number of Guests",
-      datePlaceholder: "Event Date",
-      messagePlaceholder: "Tell us about your event...",
-      submitButton: "Get Your Free Quote →",
-      successMessage: "Thank you! We'll contact you within 24 hours.",
-    },
+    headline: "Let's Plan Your Perfect Event",
+    subtext: "Ready to bring authentic Tamil cuisine to your celebration? Share your event details and we'll get back to you within 24 hours with a personalized quote.",
     whatsapp: {
-      text: "WhatsApp Us Now",
-      description: "Get instant answers to your questions",
+      text: "Quick Response via WhatsApp",
+      description: "Get instant answers to your catering questions — chat with us directly on WhatsApp.",
       number: "+91 7556377274",
     },
     info: {
       phone: "+91 7556377274",
-      email: "info@tamilnaducatering.com",
-      address: "Service available across Tamil Nadu",
+      email: "tncats@gmail.com",
+      location: "Serving all of Tamil Nadu",
+    },
+    form: {
+      namePlaceholder: "Your Name",
+      emailPlaceholder: "Your Email",
+      phonePlaceholder: "Your Phone",
+      eventTypePlaceholder: "Event Type (Wedding, Corporate, etc.)",
+      guestsPlaceholder: "Number of Guests",
+      datePlaceholder: "Event Date",
+      messagePlaceholder: "Tell us more about your event...",
+      submitButton: "Send Inquiry →",
+      successMessage: "Thank you! We'll get back to you within 24 hours.",
     },
   },
   
   footer: {
-    tagline: "Bringing authentic Tamil Nadu flavours to your celebrations — one event at a time.",
+    tagline: "Bringing authentic Tamil Nadu flavours and warm hospitality to your celebrations since 1998. From traditional wedding feasts to corporate events — we cater with care.",
     social: [
       {
         platform: "Facebook",
-        url: "https://facebook.com",
         icon: "Facebook",
+        url: "https://facebook.com",
       },
       {
         platform: "Instagram",
-        url: "https://instagram.com",
         icon: "Instagram",
+        url: "https://instagram.com",
       },
       {
         platform: "Phone",
-        url: "tel:+917556377274",
         icon: "Phone",
+        url: "tel:+917556377274",
       },
     ],
     services: {
-      title: "Services",
+      title: "Our Services",
       links: [
         "Wedding Catering",
         "Corporate Events",
-        "Temple Functions",
+        "Temple & Community",
         "Private Parties",
       ],
     },
     company: {
-      title: "Company",
+      title: "Quick Links",
       links: [
         "Sample Menus",
+        "How It Works",
         "Testimonials",
         "Contact",
       ],
     },
     serviceArea: {
       title: "Service Area",
-      text: "We serve all major cities and towns across Tamil Nadu, including Chennai, Coimbatore, Madurai, Trichy, Salem, and beyond.",
+      text: "We proudly serve Chennai, Coimbatore, Madurai, Trichy, Salem, and all surrounding areas across Tamil Nadu.",
     },
     copyright: "© 2024 Tamil Nadu Catering. All rights reserved.",
   },
 };
-
-// Export type for use in components
-export type SiteContent = typeof siteContent;
