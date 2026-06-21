@@ -167,47 +167,55 @@ export const siteContent = {
         image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=400&q=80",
         rating: 5,
       },
-      {
-        quote: "The best catering decision we made for our anniversary celebration. Authentic flavours, beautiful banana leaf presentation, and the service staff were courteous and attentive. Worth every rupee!",
-        author: "Priya & Arun",
-        role: "Anniversary Celebration, Salem",
-        image: "https://images.unsplash.com/photo-1464863979621-258859e62245?auto=format&fit=crop&w=400&q=80",
-        rating: 5,
-      },
     ],
   },
   
   contact: {
     overline: "Get in Touch",
-    headline: "Let's Plan Your Perfect Event",
-    subtext: "Ready to experience authentic Tamil cuisine at your next event? Fill out the form below or reach out directly via WhatsApp for a quick quote.",
+    headline: "Ready to Plan Your Event?",
+    subtext: "Share your event details and we'll send you a custom quote within 24 hours. Or call us now for immediate assistance.",
     form: {
       namePlaceholder: "Your Name",
-      emailPlaceholder: "Your Email",
+      emailPlaceholder: "Email Address",
       phonePlaceholder: "Phone Number",
-      eventTypePlaceholder: "Event Type (Wedding, Corporate, Temple, etc.)",
+      eventTypePlaceholder: "Event Type (e.g., Wedding, Corporate)",
       guestsPlaceholder: "Number of Guests",
       datePlaceholder: "Event Date",
-      messagePlaceholder: "Tell us more about your event...",
-      submitButton: "Request a Quote →",
-      successMessage: "Thank you! We'll get back to you within 24 hours.",
+      messagePlaceholder: "Tell us about your event...",
+      submitButton: "Get Your Free Quote →",
+      successMessage: "Thank you! We'll contact you within 24 hours.",
     },
     whatsapp: {
-      text: "Quick Quote via WhatsApp",
-      description: "Prefer to chat? Send us a message and we'll respond right away.",
-      number: "+91 98765 43210",
+      text: "WhatsApp Us Now",
+      description: "Get instant answers to your questions",
+      number: "+91 7556377274",
     },
     info: {
-      phone: "+91 98765 43210",
-      email: "info@tncatering.com",
-      serviceArea: "Service Area",
-      serviceAreaText: "We serve all major cities and towns across Tamil Nadu including Chennai, Coimbatore, Madurai, Salem, Trichy, and surrounding areas.",
-      hours: "Available 7 days a week for event planning consultations",
+      phone: "+91 7556377274",
+      email: "info@tamilnaducatering.com",
+      address: "Service available across Tamil Nadu",
     },
   },
   
   footer: {
-    tagline: "Authentic Tamil cuisine, served with tradition and care.",
+    tagline: "Bringing authentic Tamil Nadu flavours to your celebrations — one event at a time.",
+    social: [
+      {
+        platform: "Facebook",
+        url: "https://facebook.com",
+        icon: "Facebook",
+      },
+      {
+        platform: "Instagram",
+        url: "https://instagram.com",
+        icon: "Instagram",
+      },
+      {
+        platform: "Phone",
+        url: "tel:+917556377274",
+        icon: "Phone",
+      },
+    ],
     services: {
       title: "Services",
       links: [
@@ -220,7 +228,6 @@ export const siteContent = {
     company: {
       title: "Company",
       links: [
-        "About Us",
         "Sample Menus",
         "Testimonials",
         "Contact",
@@ -228,15 +235,11 @@ export const siteContent = {
     },
     serviceArea: {
       title: "Service Area",
-      text: "Chennai • Coimbatore • Madurai • Salem • Trichy • Across Tamil Nadu",
+      text: "We serve all major cities and towns across Tamil Nadu, including Chennai, Coimbatore, Madurai, Trichy, Salem, and beyond.",
     },
-    social: [
-      { platform: "Facebook", icon: "Facebook", url: "#" },
-      { platform: "Instagram", icon: "Instagram", url: "#" },
-      { platform: "Phone", icon: "Phone", url: "tel:+919876543210" },
-    ],
-    copyright: "© 2024 Tamil Nadu Catering. Serving authentic Tamil cuisine since 1998.",
+    copyright: "© 2024 Tamil Nadu Catering. All rights reserved.",
   },
-} as const;
+};
 
+// Export type for use in components
 export type SiteContent = typeof siteContent;
