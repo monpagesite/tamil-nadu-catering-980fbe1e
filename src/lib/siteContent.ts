@@ -111,6 +111,28 @@ export const siteContent = {
         ],
         serves: "100+ guests",
       },
+      {
+        name: "Chicken Biryani",
+        description: "Aromatic basmati rice layered with tender chicken marinated in traditional spices, slow-cooked to perfection. A beloved Tamil Nadu specialty that's perfect for any celebration.",
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=800&q=80",
+        highlights: [
+          "Fragrant basmati rice with tender chicken",
+          "Raita, Brinjal Curry & Boiled Egg",
+          "Served with onion salad & lime",
+        ],
+        serves: "20+ guests",
+      },
+      {
+        name: "Mutton Special Biryani",
+        description: "Premium mutton pieces marinated overnight in signature spices, layered with long-grain rice and slow-cooked dum style. Our signature biryani that steals the show at every event.",
+        image: "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&w=800&q=80",
+        highlights: [
+          "Tender mutton with aromatic spices",
+          "Dum-cooked with saffron & ghee",
+          "Served with raita & gravy",
+        ],
+        serves: "20+ guests",
+      },
     ],
     downloadText: "Download full menu PDF →",
   },
@@ -171,80 +193,38 @@ export const siteContent = {
   },
   
   contact: {
-    overline: "Get In Touch",
-    headline: "Ready to Serve Your Event",
-    subtext: "Tell us about your celebration and we'll craft a custom menu and quote within 24 hours. Let's make your event unforgettable.",
-    
-    whatsapp: {
-      text: "Quick Response",
-      description: "Get instant answers on WhatsApp — we're available 7 days a week.",
-      number: "+91 98765 43210",
-    },
-    
-    info: {
-      phone: "+91 98765 43210",
-      email: "tncats@gmail.com",
-      address: "Tamil Nadu, India",
-    },
-    
+    overline: "Get in Touch",
+    headline: "Let's Plan Your Event",
+    subtext: "Ready to bring authentic Tamil Nadu flavours to your celebration? Share your event details and we'll get back to you within 24 hours with a custom quote.",
     form: {
       namePlaceholder: "Your Name",
       emailPlaceholder: "Your Email",
-      phonePlaceholder: "Your Phone",
-      eventTypePlaceholder: "Event Type (Wedding, Corporate, etc.)",
-      guestsPlaceholder: "Number of Guests",
+      phonePlaceholder: "Phone Number",
+      eventTypePlaceholder: "Event Type (Wedding, Corporate, Temple, etc.)",
+      guestCountPlaceholder: "Expected Guest Count",
       datePlaceholder: "Event Date",
       messagePlaceholder: "Tell us about your event and any special requirements...",
-      submitButton: "Send Enquiry →",
-      successMessage: "Thank you! We'll get back to you within 24 hours.",
+      submitText: "Request Quote →",
+      privacyText: "We respect your privacy. Your information will only be used to provide a catering quote.",
+    },
+    info: {
+      phone: "+91 98765 43210",
+      email: "info@tamilnaducatering.com",
+      serviceArea: "Serving all districts across Tamil Nadu",
+      hours: "Mon–Sun: 8:00 AM – 10:00 PM",
     },
   },
   
   footer: {
-    tagline: "Authentic Tamil cuisine prepared fresh and served with care. From intimate gatherings to grand celebrations — we bring tradition to your table.",
-    
-    social: [
-      {
-        platform: "Facebook",
-        icon: "Facebook",
-        url: "https://facebook.com/tamilnaducatering",
-      },
-      {
-        platform: "Instagram",
-        icon: "Instagram",
-        url: "https://instagram.com/tamilnaducatering",
-      },
-      {
-        platform: "Phone",
-        icon: "Phone",
-        url: "tel:+919876543210",
-      },
+    tagline: "Authentic Tamil cuisine for celebrations that matter.",
+    copyright: "© 2024 Tamil Nadu Catering. Bringing tradition to your table.",
+    links: [
+      { label: "Services", href: "#services" },
+      { label: "Menus", href: "#menus" },
+      { label: "How It Works", href: "#process" },
+      { label: "Contact", href: "#contact" },
     ],
-    
-    services: {
-      title: "Services",
-      links: [
-        "Wedding Catering",
-        "Corporate Events",
-        "Temple Festivals",
-        "Family Gatherings",
-      ],
-    },
-    
-    company: {
-      title: "Company",
-      links: [
-        "Sample Menus",
-        "Testimonials",
-        "Contact",
-      ],
-    },
-    
-    serviceArea: {
-      title: "Service Area",
-      text: "We proudly serve across Tamil Nadu including Chennai, Coimbatore, Madurai, Salem, Trichy, and surrounding regions.",
-    },
-    
-    copyright: "© 2024 Tamil Nadu Catering. All rights reserved.",
   },
 };
+
+export type SiteContent = typeof siteContent;
